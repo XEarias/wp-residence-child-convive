@@ -1,0 +1,62 @@
+/*
+Theme Name: wpresidence
+Template: wpresidence
+Author: WP Estate
+Version: 1.0
+Updated: 2015-01-25 18:19:31
+*/
+
+@charset "UTF-8";
+
+
+
+.payu_form{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    z-index: 100000;
+    background-color: #00000080;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.payu_form form{
+    background-color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.payu_form form label {
+    font-weight:  bold;
+    display: block;
+}
+
+.payu_form form > div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.payu_form form span {
+
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.payu_form form input {
+    width: 100%;
+}
+
+
+.payu_form form .half{
+    display: inline-block;
+    width: 45%;
+}
+
+    
